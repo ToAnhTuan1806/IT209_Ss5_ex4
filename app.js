@@ -1,10 +1,9 @@
-// Phien ban he thong v1.0.0
+// Phien ban he thong v1.0.1 (Hotfix)
 function getUser(user) {
-    // BUG: Lo mat khau nguoi dung
+    // DA SUA LOI: Khong tra ve password nguoi dung
     return {
         id: user.id,
-        username: user.username,
-        password: user.password
+        username: user.username
     };
 }
 
